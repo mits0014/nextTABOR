@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { whatsapp, instagram, facebook, youtube, spotify, pray } from '../icons';
-import logo from '../images/logo png.png'
+import logo from '../../../public/images/logo png.png'
 
 import styles from '../styles/Navbar.module.css'
 export default function Navbar() {

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./styles/page.module.css";
-import 'jquery';
-import { evento1,evento2,evento3,evento4 } from "./images/imagesHome";
+import MainCarroseu from "./components/MainCarroseu";
+import { evento1,evento2,evento3,evento4 } from "../../public/images/imagesHome";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Home() {
@@ -16,7 +16,13 @@ export default function Home() {
           </div>
           <div className="show-events-carousel">
             <div className="container">
-              <div className="row">
+              <MainCarroseu>
+              </MainCarroseu>
+
+
+            
+
+              {/* <div className="row">
                 <div className="col-lg-12">
                   <div className="owl-show-events owl-carousel owl-loaded owl-drag">
                     <div className="item">
@@ -45,7 +51,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="conheca">

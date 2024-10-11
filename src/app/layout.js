@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import localFont from "next/font/local";
 import Navbar from './components/Navbar';
-import $ from "jquery";
+//import $ from "jquery";
 //import './js/owl-carousel'
 
 
