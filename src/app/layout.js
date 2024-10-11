@@ -3,7 +3,7 @@ import "./globals.css";
 import localFont from "next/font/local";
 import Navbar from './components/Navbar';
 import $ from "jquery";
-import './js/owl-carousel'
+//import './js/owl-carousel'
 
 
 const geistSans = localFont({
