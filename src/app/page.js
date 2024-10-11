@@ -1,95 +1,75 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "./styles/page.module.css";
+import 'jquery';
+import { evento1,evento2,evento3,evento4 } from "./images/imagesHome";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+    <div className={styles}>
+      <div className="homeBody">
+        <div className="home">
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+          <div className="main-banner">
+
+          </div>
+          <div className="show-events-carousel">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="owl-show-events owl-carousel owl-loaded owl-drag">
+                    <div className="item">
+                      <a href=""><Image src={evento2} alt="" /></a>
+                    </div>
+                    <div className="item">
+                      <a href=""><Image src={evento1} alt="" /></a>
+                    </div>
+                    <div className="item">
+                      <a href=""><Image src={evento3} alt="" /></a>
+                    </div>
+                    <div className="item">
+                      <a href=""><Image src={evento2} alt="" /></a>
+                    </div>
+                    <div className="item">
+                      <a href=""><Image src={evento4} alt="" /></a>
+                    </div>
+                    <div className="item">
+                      <a href=""><Image src={evento1} alt="" /></a>
+                    </div>
+                    <div className="item">
+                      <a href=""><Image src={evento3} alt="" /></a>
+                    </div>
+                    <div className="item">
+                      <a href=""><Image src={evento4} alt="" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="conheca">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-9">
+                  <div className="left-content">
+                    <h4>Conheça a comunidade Tabor:</h4>
+                    <p>O Taborão é um evento anual promovido pela Arquidiocese de Cascavel, que se destaca como uma celebração de fé e comunidade para jovens de todo o Brasil. Este evento, que tem ganhado crescente relevância e notoriedade, tem como objetivo principal proporcionar uma experiência espiritual rica e contemporânea, capaz de conectar a juventude ao ensinamento e à vivência cristã de maneira atual e envolvente.</p>
+                  </div>
+                </div>
+                <div className="col-lg-3">
+                  <div className="right-content">
+                    <h5><i className="fa fa-map-marker"></i> Visite-Nos</h5>
+                    <span>R. Paranaguá, 2633São CristovãoCascavel - PR</span>
+                    <div className="text-button"><a href="show-events-details.html">Precisa da Rota? <i className="fa fa-arrow-right"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
     </div>
+    </>
   );
 }
