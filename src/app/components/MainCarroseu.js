@@ -6,7 +6,7 @@ let alturaImagem = 300;
 let larguraImagem = 300;
 
 
-export default function Contact({ children }) {
+export default function Caroseu({ children }) {
   
 
     return (
@@ -44,7 +44,6 @@ export default function Contact({ children }) {
           </Col>
         </Row>
       </Carousel.Item>
-    </Carousel>
-      
+    </Carousel>     
     )
   }

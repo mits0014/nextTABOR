@@ -1,4 +1,4 @@
-export default function footer(){
+export default function Footer(){
     return(
     <div>
         <div class="container">
@@ -68,22 +68,22 @@ export default function footer(){
                                     <ul>
                                         <li>
                                             <a href="https://www.instagram.com/comunidadecatolicatabor/">
-                                                <img width="20" height="20" src="assets/icons/instagram.svg"/> &nbsp;&nbsp;
+                                                <img width="20" height="20" src="icons/instagram.svg"/> &nbsp;&nbsp;
                                             </a>
                                         </li>
                                         <li>
                                             <a href="https://www.facebook.com/taborconvivio?locale=pt_BR">
-                                                <img width="20" height="20" src="assets/icons/facebook.svg"/> &nbsp;&nbsp;
+                                                <img width="20" height="20" src="icons/facebook.svg"/> &nbsp;&nbsp;
                                             </a>
                                         </li>
                                         <li>
                                             <a href="https://www.youtube.com/@comunidadecatolicatabor">
-                                                <img width="20" height="20" src="assets/icons/youtube.svg"/> &nbsp;&nbsp;
+                                                <img width="20" height="20" src="icons/youtube.svg"/> &nbsp;&nbsp;
                                             </a>
                                         </li>
                                         <li>
                                             <a href="https://open.spotify.com/playlist/5RFfWVryk1JrTvPnWHCVZ0?si=a2d83a9f9ac44967">
-                                                <img width="20" height="20" src="assets/icons/spotify.svg"/>
+                                                <img width="20" height="20" src="icons/spotify.svg"/>
                                             </a>
                                         </li>
                                     </ul>
