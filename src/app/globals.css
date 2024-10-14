@@ -21,6 +21,7 @@ Table of contents
 10. preloader
 11. search
 12. portfolio
+13. homilia
 
 --------------------------------------------- */
 /* 
@@ -1127,7 +1128,6 @@ footer p.copyright {
   display: inline-block;
   text-align: center;
   line-height: 30px;
-  background-color: #2a2a2a;
   border-radius: 50%;
   color: #fff;
   font-size: 14px;
@@ -2372,6 +2372,44 @@ preloader
     border-radius: 50%;
 }
 
+/* 
+---------------------------------------------
+homilia
+--------------------------------------------- 
+*/
+.imagemHolder {
+  position: relative;
+  background-image: url("/images/homilia.png");
+  background-size: cover; /* Faz a imagem cobrir todo o container */
+  background-position: center; /* Centraliza a imagem */
+  width: 100%;
+  height: 100vh; /* Preenche a altura da tela */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;    /* Centraliza verticalmente */
+  text-align: center;     /* Centraliza o texto dentro do parágrafo */
+   /* Texto em branco */
+}
+
+.imagemHolder::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Máscara escura */
+  z-index: 1; /* Máscara abaixo do texto */
+}
+
+.imagemHolder p {
+  position: relative;
+  color: white;
+  z-index: 2; /* Garante que o texto fique acima da máscara */
+  font-size: 1.5rem; /* Tamanho do texto */
+  line-height: 1.6;
+  padding: 0 20%; /* Espaçamento interno */
+}
 
 /* 
 ---------------------------------------------
