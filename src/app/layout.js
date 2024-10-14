@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import localFont from "next/font/local";
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 //import $ from "jquery";
 //import './js/owl-carousel'
 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
       <Navbar />
         {children}
+      <Footer/>
       </body>
     </html>
   );

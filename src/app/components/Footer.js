@@ -1,23 +1,23 @@
 export default function Footer(){
     return(
         <footer>
-            <div class="subscribe">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4">
+            <div className="subscribe">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-4">
                             <h4>Subscribe Our Newsletter:</h4>
                         </div>
-                        <div class="col-lg-8">
+                        <div className="col-lg-8">
                             <form id="subscribe" action="" method="get">
-                                <div class="row">
-                                <div class="col-lg-9">
+                                <div className="row">
+                                <div className="col-lg-9">
                                     <fieldset>
                                     <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required=""/>
                                     </fieldset>
                                 </div>
-                                <div class="col-lg-3">
+                                <div className="col-lg-3">
                                     <fieldset>
-                                    <button type="submit" id="form-submit" class="main-dark-button">Submit</button>
+                                    <button type="submit" id="form-submit" className="main-dark-button">Submit</button>
                                     </fieldset>
                                 </div>
                                 </div>
@@ -26,18 +26,18 @@ export default function Footer(){
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="address">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-4">
+                        <div className="address">
                             <h4>Fale Conosco</h4>
-                                <span><i class="bi bi-envelope-fill"></i>&nbsp;&nbsp;Email@tabor.com.br</span>
-                                <span><i class="bi bi-envelope-fill"></i>&nbsp;&nbsp;Contato@tabor.com.br</span>
-                                <span><i class="bi bi-whatsapp"></i>&nbsp;&nbsp;(45) 9 9999-9999</span>
+                                <span><i className="bi bi-envelope-fill"></i>&nbsp;&nbsp;Email@tabor.com.br</span>
+                                <span><i className="bi bi-envelope-fill"></i>&nbsp;&nbsp;Contato@tabor.com.br</span>
+                                <span><i className="bi bi-whatsapp"></i>&nbsp;&nbsp;(45) 9 9999-9999</span>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="links">
+                    <div className="col-lg-4">
+                        <div className="links">
                             <h4>Links Úteis</h4>
                             <ul>
                                 <li><a href="#">Info</a></li>
@@ -48,8 +48,8 @@ export default function Footer(){
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="hours">
+                    <div className="col-lg-4">
+                        <div className="hours">
                             <h4>Horários de Funcionamento</h4>
                             <ul>
                                 <li>Seg a sex: 10:00 as 16:00</li>
@@ -57,39 +57,39 @@ export default function Footer(){
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-12">
-                        <div class="under-footer">
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-6">
+                    <div className="col-lg-12">
+                        <div className="under-footer">
+                            <div className="row">
+                                <div className="col-lg-6 col-sm-6">
                                     <span>R. Paranaguá, 2633</span>
                                     <span>São Cristovão</span>
                                     <span>Cascavel - PR</span>
                                 </div>
-                                <div class="col-lg-6 col-sm-6">
-                                    <p class="copyright">Copyright 2024</p>
+                                <div className="col-lg-6 col-sm-6">
+                                    <p className="copyright">Copyright 2024</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12">
-                        <div class="sub-footer">
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <a href="index.html" class="logo"><img height="60" src="images/logo.png"/></a>
+                    <div className="col-lg-12">
+                        <div className="sub-footer">
+                            <div className="row">
+                                <div className="col-lg-3">
+                                    <a href="index.html" className="logo"><img height="60" src="images/logo.png"/></a>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="menu">
+                                <div className="col-lg-6">
+                                    <div className="menu">
                                         <ul>
-                                                <li><a href="index.html" class="active">Início</a></li>
+                                                <li><a href="index.html" className="active">Início</a></li>
                                                 <li><a href="sobre.html">Sobre</a></li>
                                                 <li><a href="eventos.html">Eventos</a></li>
                                                 <li><a href="agenda.html">Agenda</a></li> 
-                                                <li><a href="taborao.html" class="taborao">Taborão <i class="bi bi-caret-up-fill"></i></a></li>  
+                                                <li><a href="taborao.html" className="taborao">Taborão <i className="bi bi-caret-up-fill"></i></a></li>  
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
-                                    <div class="social-links">
+                                <div className="col-lg-3">
+                                    <div className="social-links">
                                         <ul>
                                             <li>
                                                 <a href="https://www.instagram.com/comunidadecatolicatabor/">
