@@ -6,6 +6,8 @@ import customStyles from './styles/custon.module.css';
 import "react-bootstrap";
 import ImagemDeComposicao from "./components/ImagemDeComposicao";
 
+let texto = "Naquele tempo, traziam crianças para que Jesus as tocasse, mas os discípulos as repreendiam. Vendo isso, Jesus se aborreceu e disse: Deixai vir a mim as crianças, não as proibais, porque o reino de Deus é dos que são como elas. Eu digo: quem não receber o reino de Deus como uma criança, não entrará nele.\n (Mc 10,13-16)";
+
 
 export default function Home() {
   return (
@@ -42,7 +44,7 @@ export default function Home() {
         </div>
       <Map/>
       <Eventos/>
-      <ImagemDeComposicao imageSrc={"/images/homilia.png"} text={"Naquele tempo, traziam crianças para que Jesus as tocasse, mas os discípulos as repreendiam. Vendo isso, Jesus se aborreceu e disse: Deixai vir a mim as crianças, não as proibais, porque o reino de Deus é dos que são como elas. Eu digo: quem não receber o reino de Deus como uma criança, não entrará nele.\n (Mc 10,13-16)"}/>
+      <ImagemDeComposicao imageSrc={"/images/homilia.png"} text={texto}/>
   </div>
   );
 }

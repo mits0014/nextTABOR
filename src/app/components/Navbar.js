@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/Navbar.module.css'
+import Link from 'next/link'
 export default function Navbar() {
   return (
     <div className={styles.Navbar}>
@@ -44,8 +45,8 @@ export default function Navbar() {
                             <a href="index.html" className="logo"><img height="60"  src="/images/logo.png"/></a>
                           
                             <ul className="nav">
-                                <li><a href="\" className="active">Início</a></li>
-                                <li><a href="sobre.html">Sobre</a></li>
+                                <li><Link href ="/" className="active">Início</Link></li>
+                                <li><Link href="/sobre"> Sobrew</Link></li>
                                 <li><a href="eventos.html">Eventos</a></li>
                                 <li><a href="agenda.html">Agenda</a></li> 
                                 <li><a href="taborao.html" className="taborao">Taborão <i className="bi bi-caret-down-fill"></i></a></li> 

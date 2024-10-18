@@ -1,0 +1,38 @@
+.mainFrame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center;     /* Centraliza horizontalmente */
+    max-width: 1200px;       /* Define um limite máximo de largura */
+    width: 100%;             /* Faz com que a div ocupe 100% da largura disponível até o limite do max-width */
+    margin: 0 auto;          /* Centraliza a div horizontalmente */
+    padding: 20px;           /* Adiciona um espaçamento interno opcional */
+}
+
+.titulo {
+    text-align: center;  /* Centraliza o título horizontalmente */
+    margin-bottom: 20px; /* Adiciona um espaço de 20px abaixo do h3 */
+}
+
+.contentFrame {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    text-align: start;      
+    gap: 20px; 
+    margin-bottom: 40px;               
+}
+
+.contentFrame div {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;     
+}
+.contentFrame p  {
+    text-indent: 2em;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
