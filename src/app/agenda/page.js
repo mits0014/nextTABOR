@@ -3,8 +3,11 @@ import Style from "./agenda.module.css";
 
 export default function agenda(){
     return(
-        <div className={Style.tamanho}>
+        <div className={Style.mainFrame }>
+            <div className={Style.Calendario}>
             <Calendario> </Calendario>
+
+            </div>
         </div>
     );
 }

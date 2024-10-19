@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-big-calendar/lib/css/react-big-calendar.css';
 import "./globals.css";
 import localFont from "next/font/local";
 import Navbar from './components/Navbar';
