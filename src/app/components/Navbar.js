@@ -46,9 +46,9 @@ export default function Navbar() {
                           
                             <ul className="nav">
                                 <li><Link href ="/" className="active">Início</Link></li>
-                                <li><Link href="/sobre"> Sobrew</Link></li>
-                                <li><a href="eventos.html">Eventos</a></li>
-                                <li><a href="agenda.html">Agenda</a></li> 
+                                <li><Link href="/sobre"> Sobre</Link></li>
+                                <li><Link href="/eventos"> Eventos</Link></li>
+                                <li><Link href="/agenda"> Agenda</Link></li> 
                                 <li><a href="taborao.html" className="taborao">Taborão <i className="bi bi-caret-down-fill"></i></a></li> 
                             </ul>        
                             <a className='menu-trigger'>
