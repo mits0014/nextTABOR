@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function Footer(){
     return(
         <footer>
@@ -80,11 +81,11 @@ export default function Footer(){
                                 <div className="col-lg-6">
                                     <div className="menu">
                                         <ul>
-                                                <li><a href="index.html" className="active">Início</a></li>
-                                                <li><a href="sobre.html">Sobre</a></li>
-                                                <li><a href="eventos.html">Eventos</a></li>
-                                                <li><a href="agenda.html">Agenda</a></li> 
-                                                <li><a href="taborao.html" className="taborao">Taborão <i className="bi bi-caret-up-fill"></i></a></li>  
+                                            <li><Link href ="/" className="active">Início</Link></li>
+                                            <li><Link href="/sobre"> Sobre</Link></li>
+                                            <li><Link href="/eventos"> Eventos</Link></li>
+                                            <li><Link href="/agenda"> Agenda</Link></li> 
+                                            <li><a href="taborao.html" className="taborao">Taborão <i className="bi bi-caret-down-fill"></i></a></li> 
                                         </ul>
                                     </div>
                                 </div>

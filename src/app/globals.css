@@ -1578,7 +1578,7 @@ Shows Events Page
 */
 
 .page-heading-shows-events {
-  background-image: url();
+  background-image: url("/images/shows_events_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 110px 0px;
@@ -1783,19 +1783,19 @@ Shows Events Page
   font-size: 15px;
 }
 
-.shows-events-tabs .tabs-content .pagination ul {
+.shows-events-tabs .tabs-content .pagination button {
   text-align: center;
   width: 100%;
   margin-top: 30px;
   margin-bottom: 100px;
 }
 
-.shows-events-tabs .tabs-content .pagination ul li {
+.shows-events-tabs .tabs-content .pagination button {
   margin: 0px 10px!important;
   display: inline-block!important;
 }
 
-.shows-events-tabs .tabs-content .pagination ul li a {
+.shows-events-tabs .tabs-content .pagination button {
   display: inline-block;
   font-size: 14px;
   padding: 12px 20px;
@@ -1807,11 +1807,13 @@ Shows Events Page
   transition: all .3s;
 }
 
-.shows-events-tabs .tabs-content .pagination ul li a:hover,
-.shows-events-tabs .tabs-content .pagination ul li.active a {
+.shows-events-tabs .tabs-content .pagination button:hover,
+.shows-events-tabs .tabs-content .pagination button .active button {
   background-color: #343a3e;
   color: #fff!important;
 }
+
+
 
 
 /*

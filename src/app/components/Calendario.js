@@ -5,6 +5,7 @@ import moment from 'moment';
 import 'moment/locale/pt-br';
 
 export default function Calendario( {events}) {
+  
   moment.locale('pt-br');
   const localizer = momentLocalizer(moment);
 
@@ -29,7 +30,7 @@ export default function Calendario( {events}) {
           day: false,
         }}
         eventPropGetter={eventStyleGetter}
-        style={{ height: 500 }}
+        style={{ height: 600 }}
       />
     </div>
   )
