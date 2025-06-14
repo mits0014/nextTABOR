@@ -1,3 +1,11 @@
+# 🧊 Tabor
+
+![Apresentação das telas do site]()
+
+## 📝 Descrição
+O site tabor está sendo desenvolvido para atender a demanda da comunidade catolica tabor, o site conta com algumas paginas especialmente solicitada pelos usuarios como a pagina principal, eventos e mais, alem disso contará com uma pagina de gerenciamento de conteúdo integrada onde o adimnistrador podera gerenciar o conteudo da pagina, bem coma.
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
